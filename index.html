@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriviaTime.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">TriviaTime</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Trivia Time!!!</h1>
+                    <div class="quiz-header">
+                        <span>Trivia about General Knowledge</span>
+                        <span class="header-score">Score 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">What is the largest country in the world by land area?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. India</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Canada</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Russia</span>
+                        </div>
+                        <div class="option">
+                            <span>D. USA</span>
+                            </div>
+                        </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Trivia Results!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+
+
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>TriviaTime</h1>
+                    <p>Test your knowledge and have fun with a wide range of questions on various topics.
+                        Whether you're a history buff, a pop culture enthusiast, or a science geek, we've got something for everyone.</p>
+                    <button class="start-btn">Start TriviaTime!</button>
+                </div>
+                </div>
+            </section>
+            </div>  
+    </main>
+
+    <div class="popup-info">
+        <h2>Guidelines</h2>
+        <span class="info">1. You are only given one chance to click an answer, Once clicked it will be recognizedas the final answer</span>
+        <span class="info">2. Coverage will be about General knowledge</span>
+        <span class="info">3. There will be a total of 10 questions</span>
+        <span class="info">4. Once finished, You can opt to try again</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
